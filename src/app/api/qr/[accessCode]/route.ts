@@ -114,7 +114,7 @@ function placeModules(codewords: Uint8Array): boolean[][] {
     place(8, i < 6 ? i : i === 6 ? 7 : 8, fmtBits[i]);
     place(i < 8 ? i : i === 8 ? 7 : 14 - i, 8, fmtBits[i]);
   }
-  place(SIZE - 8, 8, true); // dark module
+  place(SIZE - 8, 8, 1); // dark module
 
   // data placement (zigzag, mask 0: (r+c)%2==0)
   let idx = 0; const totalBits = codewords.length * 8;
