@@ -2,11 +2,13 @@
   "name": "aeterna-grounded-rag",
   "version": "1.0.0",
   "private": true,
-  "scripts": {
+    "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p $PORT",
-",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
     "lint": "next lint",
     "typecheck": "tsc --noEmit"
   },
