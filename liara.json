@@ -1,0 +1,12 @@
+{
+  "build": { "cache": false, "dist": true, "cdn": false, "output": ".next" },
+  "platform": "node",
+  "app": "nextjs",
+  "start": { "command": "npm run start", "stream": true },
+  "node": { "version": "20.12.2" },
+  "domains": [],
+  "env": {
+    "NODE_ENV": "production",
+    "NEXT_TELEMETRY_DISABLED": "1"
+  }
+}
